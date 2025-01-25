@@ -31,7 +31,9 @@ console.log(stock)
 let heartRate = 95; // Current heart rate in bpm
 console.log(``);
 
+let rate = (heartRate < 100)? "Boost needed!" : "Energy levels are high!";
 
+console.log(rate);
 // #### Challenge 4: Temperature Suitability
 // Monster Energy drinks are best served cold. Given the current temperature, use a ternary to print "Chilled to perfection!" 
 // if the temperature is below or equal to 5°C, or "Needs a cooler!" if above 5°C.
