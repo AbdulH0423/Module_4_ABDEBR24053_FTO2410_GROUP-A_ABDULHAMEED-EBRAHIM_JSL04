@@ -20,6 +20,9 @@ console.log(pref)
 let cansLeft = 3; // Any number of cans
 console.log(``);
 
+let stock =(cansLeft < 5) ? "Time to restock!" : "We're stocked!";
+
+console.log(stock)
 
 // #### Challenge 3: Workout Intensity
 // Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. 
